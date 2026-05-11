@@ -3,7 +3,6 @@ using HouseRentingSystemApi.Data;
 using HouseRentingSystemApi.Data.Entities;
 using HouseRentingSystemApi.Middlewares;
 using HouseRentingSystemApi.Services.Contracts;
-using HouseRentingSystemApi.Services.Extensions;
 using HouseRentingSystemApi.Services.Implementations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;

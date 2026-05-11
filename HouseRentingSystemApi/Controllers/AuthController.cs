@@ -37,7 +37,7 @@ namespace HouseRentingSystemApi.Controllers
 			return Ok(result);
 		}
 
-		[HttpPost("/register")]
+		[HttpPost("register")]
 		[Produces(typeof(AuthResult))]
 		public async Task<IActionResult> Resgister([FromBody] AuthModel model)
 		{
